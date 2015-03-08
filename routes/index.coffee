@@ -19,4 +19,7 @@ router
 		if !error and response.statusCode == 200
 			res.send(body)
 
+.get '/pito', (req,res) ->
+	res.render 'maps'
+	return 
 module.exports = router

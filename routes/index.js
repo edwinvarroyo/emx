@@ -22,6 +22,10 @@ router.get('/', function(req, res, next) {
       return res.send(body);
     }
   });
-});
+})
+
+router.get('/pito', function(req, res){
+	res.render('maps')
+})
 
 module.exports = router;

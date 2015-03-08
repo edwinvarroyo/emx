@@ -1,0 +1,59 @@
+<html>
+	<head>	
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel='stylesheet' type='text/css' href='style1.css'/>
+	</head>
+	<body>
+		<div class="index"><h1></h1><p>EMX</p></div>
+	<form method="POST" name="requisito" onSubmit="return" suma(this) action="formulario.html" onsubmit="suma">
+	<table width='200' border='0'>
+	<tr>
+		<td colspan='2' align='center'>Sumar dos digitos</td>
+	</tr>
+	<tr>
+		<td>numero 1 </td>
+		<td><input type="text" name="num1" id='numero1'></td>
+	</tr>
+	<tr>
+		<td>numero 2 </td>
+		<td><input type="text" name="num2" id='numero2'></td>
+		
+	</tr>
+	<tr>
+		<td><input type="submit" value="Enviar datos" name="Enviar" onclick="suma();"> </td>
+		<td><input type="reset" value="Borrar datos" name="Limpiar"> </td>
+	</tr>
+	<tr>
+		<td>Resultado</td>
+		<td><output type="text" name="res" id='numero3'></td>
+	</tr>
+	</table>
+	</form>
+	
+	<form method="POST" name="sumar" onSubmit="return" suma(this) action="formulario.html" onsubmit="suma2">
+	<table width='200' border='0'>
+	<tr>
+		<td colspan='2' align='center'>Sumar dos digitos</td>
+	</tr>
+	<tr>
+		<td>numero 1 </td>
+		<td><input type="text" name="num5" id='numero5'></td>
+	</tr>
+	<tr>
+		<td>numero 2 </td>
+		<td><input type="text" name="num6" id='numero6'></td>
+		
+	</tr>
+	<tr>
+		<td><input type="submit" value="Enviar datos" name="Enviar" onclick="suma2();"> </td>
+		<td><input type="reset" value="Borrar datos" name="Limpiar"> </td>
+	</tr>
+	<tr>
+		<td>Resultado</td>
+		<td><output type="text" name="resu" id='numero7'></td>
+	</tr>
+	</table>
+	</form>
+	</body>
+</html>
