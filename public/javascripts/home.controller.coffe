@@ -1,0 +1,9 @@
+homeController = (location) ->
+	this.login = () ->
+		location.path('/login')
+	this.signup = () ->
+		location.path('/signup')
+
+###module.exports = (angular) ->###
+homeController.$inject = ['$location']
+angular.controller('homeController',homeController)
